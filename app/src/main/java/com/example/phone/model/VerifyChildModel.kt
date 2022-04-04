@@ -69,60 +69,7 @@ fun VerChild(navController: NavController) {
             )
 
         }
-        Button(
-            onClick = { navController.navigate("main") },
-            modifier = Modifier
-                .width(79.dp)
-                .align(Alignment.CenterHorizontally)
-                .padding(top = 5.dp)
-            //.clip(shape =),
-            , border = BorderStroke(1.dp, Blue200),
-            colors = ButtonDefaults.buttonColors(backgroundColor = Blue100)
 
-        ) {
-            Text(
-                text = "Samsung34",
-                color = Color.White,
-                fontSize = 12.sp,
-            )
-
-        }
-        Button(
-            onClick = { navController.navigate("main") },
-            modifier = Modifier
-                .width(79.dp)
-                .align(Alignment.CenterHorizontally)
-                .padding(top = 5.dp)
-                .clip(shape = RoundedCornerShape(60.dp)),
-            border = BorderStroke(1.dp, Blue200),
-            colors = ButtonDefaults.buttonColors(backgroundColor = Blue100)
-
-        ) {
-            Text(
-                text = "Samsung34",
-                color = Color.White,
-                fontSize = 12.sp,
-            )
-
-        }
-        Button(
-            onClick = { navController.navigate("main") },
-            modifier = Modifier
-                .width(79.dp)
-                .align(Alignment.CenterHorizontally)
-                .padding(top = 5.dp)
-            //.clip(shape =),
-            , border = BorderStroke(1.dp, Blue200),
-            colors = ButtonDefaults.buttonColors(backgroundColor = Blue100)
-
-        ) {
-            Text(
-                text = "Samsung34",
-                color = Color.White,
-                fontSize = 12.sp,
-            )
-
-        }
         Button(
             onClick = { navController.navigate("pincode") },
             modifier = Modifier

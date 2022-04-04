@@ -37,7 +37,7 @@ fun PinCode(navController: NavController) {
             colors = TextFieldDefaults.outlinedTextFieldColors(backgroundColor = LightBlue100)
         )
         Button(
-            onClick = { navController.navigate("static") },
+            onClick = { navController.navigate("verifyCh") },
             modifier = Modifier
                 .padding(top = 30.dp)
                 .width(147.dp)

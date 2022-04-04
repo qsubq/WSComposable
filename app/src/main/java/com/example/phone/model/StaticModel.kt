@@ -32,7 +32,7 @@ fun Static(navController: NavController) {
             Main1
         ))), horizontalAlignment = Alignment.CenterHorizontally) {
         Button(
-            onClick = { navController.navigate("") },
+            onClick = {  },
             modifier = Modifier
                 .width(147.dp)
                 .padding(top = 10.dp)
